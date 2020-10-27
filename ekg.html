@@ -9,22 +9,31 @@
                 <TD WIDTH="800" HEIGHT="300">
                 <h2 align=center>Electrocardiogram (EKG or ECG)</h2>
                 <p>The <b>electrocardiogram (EKG or ECG)</b> is a visual depiction of the wave of electrical signal through the myocardium. Its main purpose is as a clinical tool in the work-up of chest pain.</p>
-                <center><img src = "images/cardio/ekg.png" usemap="#ekg" width="480" height="280">
+                <center><img src = "images/cardio/ekg.png" usemap="#ekg" width="575" height="300">
                 <map name="ekg">
-                    <area shape=rect coords="20,80,100,125" href="#ekgtracing">
-                    <area shape=rect coords="145,95,240,135" href="#ekgleads">
-                    <area shape=rect coords="60,200,125,238" href="#ekginfleads">
-                    <area shape=rect coords="120,235,185,275" href="#ekglatleads">
-                    <area shape=rect coords="200,235,285,270" href="#ekgantleads">
-                    <area shape=rect coords="265,200,355,235" href="#ekgpostleads">
-                    <area shape=rect coords="270,75,355,110" href="#ekgclinuse">
+                    <area shape=rect coords="115,85,195,125" href="#ekgtracing">
+                    <area shape=rect coords="235,105,330,140" href="#ekgleads">
+                    <area shape=rect coords="150,210,215,248" href="#ekginfleads">
+                    <area shape=rect coords="210,245,275,285" href="#ekglatleads">
+                    <area shape=rect coords="290,245,370,280" href="#ekgantleads">
+                    <area shape=rect coords="355,210,445,250" href="#ekgpostleads">
+                    <area shape=rect coords="355,80,445,120" href="#ekgclinuse">
+                    <area shape=rect coords="30,145,165,195" href="cardiac_myocytes.html#electrical_signal">
+                    <area shape=rect coords="60,230,135,280" href="cardiac_cycle.html">
                 </map></center></TD></TR></TABLE>
 <BR>
         <TABLE WIDTH="800" HEIGHT="370" BORDER="1" CELLSPACING="2" CELLPADDING="2">
                 <TR>
                 <TD WIDTH="800" HEIGHT="309">
                 <a name="ekgtracing"><h2 align=center>EKG Tracings</h2></a>
-                <p>The typical flow of electrical signal (“wave of depolarization”) through the heart creates the characteristic shape of the EKG tracing. The typical EKG tracing includes the following parts: 1.) <b>P wave</b>, 2.) <b>PR interval</b>, 3.) <b>QRS complex</b>, 4.) <b>ST interval</b>, and 5.) <b>T wave</b>. Each of these segments directly corresponds to some <a href=cardiac_myocytes.html#electrical_signal>electrical excitation</a> event in the heart.</p>
+                <p>The typical <a href=cardiac_myocytes.html#electrical_signal>flow of electrical signal</a> (“wave of depolarization”) through the heart creates the characteristic shape of the EKG tracing. The typical EKG tracing includes the following parts: 1.) <b>P wave</b>, 2.) <b>PR interval</b>, 3.) <b>QRS complex</b>, 4.) <b>ST interval</b>, and 5.) <b>T wave</b>. Each of these segments directly corresponds to some electrical excitation event in the heart. Each wave of depolarization starts with the automatic firing of the <a href=cardiac_myocytes.html#sa_node>SA node</a>, causes <a href=cardiac_myocytes.html#av_myocytes>atrial and ventricular myocyte depolarization</a> and <a href=cardiac_myocytes.html#myocytes_contract>myocyte contraction</a>, and repeats with every heartbeat. The ultimate result is that these electrical events cause the cyclic contraction and relaxation of the heart, which allows it to pump blood and keep <a href=cardiac_cycle.html>the cardiac cycle</a> going. </p> 
+                <p>EKG tracings typically include the following segments:</p>
+                <ol><li><b>P wave</b> (orange): Represents the wave of depolarization through the atria ("atrial depolarization"). Since atrial depolarization is initiated by the SA node, if the P wave is absent, it means there is something wrong with the SA node.</li>
+                    <li><b>PR interval</b> (pink): Represents the time the electrical signal is delayed at the AV node. After atrial myocytes depolarize, the electrical signal reaches the AV node, where there is a slight delay before the signal is passed through to the ventricles. This allows time for the atria to contract and empty blood into the ventricles, before the ventricles depolarize and contract. This allows for proper filling of the ventricles. The PR interval therefore represents <i>diastole</i>. </li>
+                    <li><b>QRS complex</b> (blue): Represents the wave of depolarization through the ventricular myocytes ("ventricular depolarization"). Since the ventricles are much larger than the atria, this wave, or spike in the EKG, is usually larger than the P wave. The QRS complex technically also encompasses the depolarization of the His-Purkinje system; however, the His-Purkinje system covers a pretty small area and this depolarization happens really quickly, so it usually doesn't register strongly on the EKG tracing. </li>
+                    <li><b>ST interval</b> (lighter blue/green): Represents the time between ventricular myocyte depolarization and repolarization. This corresponds roughly to the time where the ventricular myocytes are undergoing muscle contraction. The ST interval therefore represents <i>systole</i>.  </li>
+                    <li><b>T wave</b> (green): Rpresents repolarization of ventricular myocytes, where they reset and prepare for the next wave of depolarization. </li></ol>
+                <p> Here is  a summary of EKG tracings and the corresponds electrical events in the heart:</p>
                 <center><img src="images/cardio/ekg_tracing.png" width="800" height="470"> </center></BR></BR></TD></TR></TABLE></body></html>
                 <BR>
         <TABLE WIDTH="800" HEIGHT="370" BORDER="1" CELLSPACING="2" CELLPADDING="2">
